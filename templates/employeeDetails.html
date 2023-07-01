@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../Styles/employeeDetails.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.4.js"
+      integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E="
+      crossorigin="anonymous"
+    ></script>
+    <script src="../scripts/employeedetails.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="header">
+        <div class="heading">
+          <img class="himg"
+            src="https://www.shutterstock.com/image-vector/salary-payroll-system-online-income-260nw-2141983465.jpg"
+            alt="Image"
+          />
+          <span>EMPLOYEE</span>
+          <span>PAYROLL</span>
+        </div>
+      </div>
+      <div class="container">
+        <div class="nav">
+          <h3 class="Ehead">Employee Details</h3>
+          <div class="left">
+            <img
+              src="data:image/png;base64,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"
+              alt="Searchbar"
+            />
+            <button class="btn" type="submit">
+              <a href="http://127.0.0.1:5500/templates/employeeForm.html"
+                >Add User</a
+              >
+            </button>
+          </div>
+        </div>
+        <table class="table">
+          <tr class="thead">
+            <th class="name">NAME</th>
+            <th class="gender">GENDER</th>
+            <th class="department">DEPARTMENT</th>
+            <th class="salary">SALARY</th>
+            <th class="strtdate">START DATE</th>
+            <th class="action">ACTIONS</th>
+          </tr>
+          <tbody class="tbody"></tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>

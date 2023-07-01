@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../Styles/employeeForm.css" />
+
+    
+    <script
+      src="https://code.jquery.com/jquery-3.6.4.js"
+      integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="header">
+        <div class="hcontent">
+          <img
+            src="https://www.shutterstock.com/image-vector/salary-payroll-system-online-income-260nw-2141983465.jpg"
+            alt="Image"
+            id="img"
+          />
+          <div class="spn">
+            <span class="emp">EMPLOYEE</span>
+            <span>PAYROLL</span>
+          </div>
+        </div>
+      </div>
+      <div class="content">
+        <h3 class="frmHeader">Employee Payroll Form</h3>
+        <form class="frm" id="form">
+          <label>Name</label>
+          <input type="text" class="name" />
+          <div class="radioImg">
+            <label>Profile Image</label>
+            <span class="rImg">
+              <input type="radio" name="img" id="Male1"value="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY6dlDqIcTnfbY3C19LP2FXlarxWXmN3FuFsBjS4OrWYJwGe3INwANj_Jib0rW2l9lLTg&usqp=CAU" />
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY6dlDqIcTnfbY3C19LP2FXlarxWXmN3FuFsBjS4OrWYJwGe3INwANj_Jib0rW2l9lLTg&usqp=CAU"
+                class="imgGen"
+              />
+            </span>
+            <span class="rImg">
+              <input type="radio" name="img" id="Female1"value="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiWSou8vcQ3Dpfmgm6Avj6HLF3rYN0ag88uw&usqp=CAU" />
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiWSou8vcQ3Dpfmgm6Avj6HLF3rYN0ag88uw&usqp=CAU"
+                alt="Female1"
+                class="imgGen"
+              />
+            </span>
+            <span class="rImg">
+              <input type="radio" name="img" id="Male2"value="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQb22AtUI9TugW10FHYLc4-k5AGqU-mpdc3yjECPQV1TFCgnkt-a2qK4z00WItotbkHaTI&usqp=CAU" />
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQb22AtUI9TugW10FHYLc4-k5AGqU-mpdc3yjECPQV1TFCgnkt-a2qK4z00WItotbkHaTI&usqp=CAU"
+                alt="Male2"
+                class="imgGen"
+              />
+            </span>
+            <span class="rImg">
+              <input type="radio" name="img" id="Female2"value="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRymW2gCWL14VL-m86Gv81u3i1uBinSNw-z1KE3Evx-VrpRCU94KeH_2z3TT1M-EvYYcg&usqp=CAU" />
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRymW2gCWL14VL-m86Gv81u3i1uBinSNw-z1KE3Evx-VrpRCU94KeH_2z3TT1M-EvYYcg&usqp=CAU"
+                alt="Female2"
+                class="imgGen"
+              />
+            </span>
+          </div>
+
+          <div class="gender">
+            <label>Gender</label>
+            <span class="g">
+              <input type="radio" name="gender" id="Male" value="Male" />
+              <label for="Male">Male</label>
+            </span>
+            <span class="g">
+              <input type="radio" name="gender" id="Female" value="Female" />
+              <label for="Female">Female</label>
+            </span>
+          </div>
+
+          <div class="department">
+            <label>Department</label>
+            <span class="dp">
+              <input type="checkbox" name="HR" id="HR" value="HR" />
+              <label for="HR">HR</label>
+            </span>
+            <span class="dp">
+              <input type="checkbox" name="Sales" id="Sales" value="Sales" />
+              <label for="Sales">Sales</label>
+            </span>
+            <span class="dp">
+              <input
+                type="checkbox"
+                name="Finance"
+                id="Finance"
+                value="Finance"
+              />
+              <label for="Finance">Finance</label>
+            </span>
+            <span class="dp">
+              <input
+                type="checkbox"
+                name="Engineer"
+                id="Engineer"
+                value="Engineer"
+              />
+              <label for="Engineer">Engineer</label>
+            </span>
+            <span class="dp">
+              <input type="checkbox" name="Other" id="Other" value="Other" />
+              <label for="Other">Other</label>
+            </span>
+          </div>
+          <div class="Salary">
+            <label>Salary</label>
+            <select name="Salary" id="Salary" class="slry">
+              <option value="40000-80000">40000-80000</option>
+              <option value="80000-120000">80000-120000</option>
+              <option value="120000-150000">120000-150000</option>
+            </select>
+          </div>
+          <div class="strtDate">
+            <label>Start Date</label>
+            <select name="date" id="date" class="sd">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+              <option value="13">13</option>
+              <option value="14">14</option>
+              <option value="15">15</option>
+              <option value="16">16</option>
+              <option value="17">17</option>
+              <option value="18">18</option>
+              <option value="19">19</option>
+              <option value="20">20</option>
+              <option value="21">21</option>
+              <option value="22">22</option>
+              <option value="23">23</option>
+              <option value="24">24</option>
+              <option value="25">25</option>
+              <option value="26">26</option>
+              <option value="27">27</option>
+              <option value="28">28</option>
+              <option value="29">29</option>
+              <option value="30">30</option>
+              <option value="31">31</option>
+            </select>
+            <select name="Month" id="Month" class="sd">
+              <option value="Month">Month</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+            </select>
+            <select name="Year" id="Year" class="sd">
+              <option value="Year">Year</option>
+              <option value="2011">2011</option>
+              <option value="2012">2012</option>
+              <option value="2013">2013</option>
+              <option value="2014">2014</option>
+              <option value="2015">2015</option>
+              <option value="2016">2016</option>
+              <option value="2017">2017</option>
+              <option value="2018">2018</option>
+              <option value="2019">2019</option>
+              <option value="2020">2020</option>
+              <option value="2021">2021</option>
+              <option value="2022">2022</option>
+              <option value="2023">2023</option>
+            </select>
+          </div>
+          <div class="nt">
+            <label for="Notes">Notes</label>
+            <input type="text" name="Notes" id="Notes" />
+          </div>
+          <div class="btn">
+            <button class="cancel bt">Cancel</button>
+            <input type="submit" class="sub bt" />
+            <button type="reset" class="res bt">Reset</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+  <script src="../scripts/employeeform.js"></script>
+</html>

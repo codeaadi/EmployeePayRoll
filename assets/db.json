@@ -1,0 +1,52 @@
+{
+  "Users": [
+    {
+      "name": "Aditya dubey",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY6dlDqIcTnfbY3C19LP2FXlarxWXmN3FuFsBjS4OrWYJwGe3INwANj_Jib0rW2l9lLTg&usqp=CAU",
+      "gender": "Male",
+      "department": "[\"Sales\"]",
+      "Salary": "40000-80000",
+      "sd": "1/7/2016",
+      "Month": "7",
+      "Year": "2016",
+      "Notes": "note",
+      "id": 1
+    },
+    {
+      "name": "akshay",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY6dlDqIcTnfbY3C19LP2FXlarxWXmN3FuFsBjS4OrWYJwGe3INwANj_Jib0rW2l9lLTg&usqp=CAU",
+      "gender": "Male",
+      "department": "[\"Finance\"]",
+      "Salary": "80000-120000",
+      "sd": "17/4/2014",
+      "Month": "4",
+      "Year": "2014",
+      "Notes": "",
+      "id": 2
+    },
+    {
+      "name": "amita",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY6dlDqIcTnfbY3C19LP2FXlarxWXmN3FuFsBjS4OrWYJwGe3INwANj_Jib0rW2l9lLTg&usqp=CAU",
+      "gender": "Male",
+      "department": "[\"Engineer\"]",
+      "Salary": "40000-80000",
+      "sd": "18/7/2018",
+      "Month": "7",
+      "Year": "2018",
+      "Notes": "",
+      "id": 3
+    },
+    {
+      "name": "rahul",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY6dlDqIcTnfbY3C19LP2FXlarxWXmN3FuFsBjS4OrWYJwGe3INwANj_Jib0rW2l9lLTg&usqp=CAU",
+      "gender": "Male",
+      "department": "[\"Sales\"]",
+      "Salary": "40000-80000",
+      "sd": "11/8/2016",
+      "Month": "8",
+      "Year": "2016",
+      "Notes": "note",
+      "id": 4
+    }
+  ]
+}

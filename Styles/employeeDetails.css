@@ -1,0 +1,135 @@
+@font-face {
+  font-family: Roboto;
+  src: url(../assets/Roboto-Regular.ttf);
+}
+.main {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f7f7f7;;
+}
+.header {
+  display: flex;
+  width: 100%;
+  height: 70px;
+  border: 1px solid #ccc;
+  padding: 20px 10px 10px 30px;
+  background-color: white;
+}
+
+.heading {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  font: normal normal bold 15px Montserrat;
+  letter-spacing: 0px;
+  text-transform: capitalize;
+  opacity: 1;
+}
+.himg{
+  width: 90px;
+}
+.Ehead {
+  font-weight: bold;
+
+}
+.container {
+  
+  width: fit-content;
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+.btn {
+  width: 110px;
+  background-color: #82A70C;
+  height: 38px;
+  
+}
+/* .tbl {
+  display: flex;
+  background-color: #42515f;
+  width: 70px;
+} */
+.thead {
+  display: flex;
+  background-color: #42512f;
+  align-items: center;
+  width: auto;
+  height: 40px;
+  font-family: sans-serif;
+  font-size:small;
+}
+.name {
+  margin: 0px 0px 0px 30px;
+  color: white;
+  font-size: 15px;
+
+}
+.gender {
+  margin: 0px 0px 0px 170px;
+  color: white;
+}
+.department {
+  margin: 0px 0px 0px 70px;
+  color: white;
+}
+.salary {
+  margin: 0px 0px 0px 70px;
+  color: white;
+}
+.strtdate {
+  margin: 0px 0px 0px 60px;
+  color: white;
+}
+.action {
+  margin: 0px 20px 0px 60px;
+  color: white;
+}
+.tbody{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-color: white;
+}
+.emplyData{
+  display: flex;
+  justify-content: space-between;
+  border:1px solid  #E3E3E3 ;
+  padding: 10px;
+  align-items: center;
+}
+.gen{
+  margin-left:62px;
+}
+.depart{
+  margin-left: 42px;
+  border: 1px solid #E3E3E3;
+  border-radius: 10px;
+  padding: 0px 2px 0px 2px;
+  background-color: #E9FEA5;
+  opacity: 0.9;
+}
+ .left img{
+  width: 25px;
+  height:25px;
+  position: relative;
+  top: 10px;
+  margin-right: 20px;
+  border-radius: 15px;
+  padding: 0px 10px 0px 10px;
+  border: 1px solid #E3E3E3;
+  background-color: white;
+
+}
+button > a{
+  text-decoration: none;
+color: white;
+
+}
